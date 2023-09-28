@@ -1,50 +1,66 @@
-.header{
-  margin: 92px 50px;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  align-items: center;
-  gap: 83px;
-  /* почему может не работать свойство justify-content? */
-}
+@import url(../blocks/header.css);
 
-.header__menu{
-width: 390px;
-padding-top: 10px;
-/* display: flex;
-flex-direction: row; */
-}
-
-.header__links-list{
+.cover{
   display: flex;
-  flex-direction: row;
-  gap: 32px;
-  list-style-type: circle;
+  flex-direction: column;
+  height: fit-content;
+  background-image: url(../images/cover.jpg);
 }
-.header__links-list-item{
-  text-decoration: underline;
-  text-underline-offset: 4px;   /* отступ  линии*/
-  font-size: 18px;
+.overlay{
+  opacity: 0.6;
 }
 
-.header__link_active{
-  text-decoration: none;
-  list-style-type: none;  
+.cover__title{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 165px 50px 128px;
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 100px;
+  line-height: 115px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
-.address{
-  font-size: 18px;
-  list-style-type: none;
-  width: 240px;
-  text-underline-offset: 4px;
-  justify-self: center;
-  padding-top: 10px;
+.aligned-text_center{
+  align-self: center;
+    padding-right: 62px;
+    padding-top: 16px;
 }
 
-.header__address{
-  padding-bottom: 3px;
+.aligned-text_right{
+  align-self: flex-end;
+  letter-spacing: 30px;
+}
+.aligned-letter{
+  padding-right: 30px;
 }
 
-.header__logo{
-  width: 140px;
-  margin-left: 125px;
+.cover__description{
+  display: flex;
+  /* justify-content: end; */
+  align-items: center;
+  padding-left: 422px;
+  padding-right: 50px;
+  padding-bottom: 55px;
+}
+
+
+.cover__description-text{
+  padding-right: 82px;
+  color: #FFF;
+  font-size: 22px;
+  text-transform: uppercase;
+  word-spacing: 17px;
+}
+
+.bet-button{
+  border: 1px solid #FFF;
+  padding: 12px 32px;
+  color: #FFF;
+  font-size: 22px;
+  font-style: normal;
+  text-transform: uppercase;
+  background: transparent;
 }

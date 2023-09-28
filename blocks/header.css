@@ -1,0 +1,50 @@
+.header{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  gap: 83px;
+  margin: 92px 50px;
+  /* почему может не работать свойство justify-content? */
+}
+
+.header__menu{
+width: 390px;
+padding-top: 10px;
+/* display: flex;
+flex-direction: row; */
+}
+
+.header__links-list{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  list-style-type: circle;
+}
+.header__links-list-item{
+  font-size: 18px;
+  text-decoration: underline;
+  text-underline-offset: 4px;   /* отступ  линии*/
+}
+
+.header__link_active{
+  text-decoration: none;
+  list-style-type: none;  
+}
+
+.address{
+  justify-self: center;
+  width: 240px;
+  padding-top: 10px;
+  font-size: 18px;
+  text-underline-offset: 4px;
+  list-style-type: none;
+}
+
+.header__address{
+  padding-bottom: 3px;
+}
+
+.header__logo{
+  width: 140px;
+  margin-left: 125px;
+}
