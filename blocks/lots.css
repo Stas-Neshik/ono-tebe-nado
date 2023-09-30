@@ -65,9 +65,9 @@ line-height: 24px;
 }
 
 .lots__look-more-link{
+padding-left: 40px;
   color: #000;
 font-size: 20px;
 line-height: normal;
 text-underline-offset: 4px;
-padding-left: 40px
 }
