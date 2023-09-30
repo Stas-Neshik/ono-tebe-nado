@@ -1,5 +1,5 @@
 .lots{
-  margin: 180px 50px;
+  margin: 180px 50px 175px;
 }
 
 .lots__heading{
@@ -11,13 +11,13 @@ text-transform: uppercase;
 .lots__card-list{
   display: flex;
   gap: 25px;
-  margin: 25px 0px;
+  margin: 25px 0px 32px;
   list-style-type: none;
 
 }
 
 .lots__card-list-item{
-  flex-grow: 1;
+  /* flex-grow: 1; не пригодился*/
 
 }
 
@@ -68,4 +68,6 @@ line-height: 24px;
   color: #000;
 font-size: 20px;
 line-height: normal;
+text-underline-offset: 4px;
+padding-left: 40px
 }
