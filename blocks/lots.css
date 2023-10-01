@@ -14,12 +14,11 @@
   gap: 25px;
   margin: 30px 0px 32px;
   list-style-type: none;
-  flex-wrap: wrap;
   flex-grow: 1;
 }
 
 .lots__card-list-item {
-position: relative;
+  position: relative;
 }
 
 .card-link {
@@ -35,6 +34,7 @@ position: relative;
 }
 
 .card__title {
+  font-family: "Raleway", Arial, sans-serif;
   color: #fff;
   font-size: 22px;
   line-height: 26.4px;
@@ -44,6 +44,7 @@ position: relative;
 }
 
 .card__text {
+  font-family: "Raleway", Arial, sans-serif;
   color: #fff;
   font-size: 20px;
   line-height: 24px;

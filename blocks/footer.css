@@ -1,5 +1,5 @@
 .footer {
-  margin: 184px 50px 90px;
+  margin: 180px 50px 90px;
   display: flex;
   justify-content: space-between;
 }
@@ -8,7 +8,8 @@
   font-family: "Raleway", sans-serif, Arial;
   font-size: 18px;
   list-style-type: none;
-  line-height: 21.13px;
+  line-height: 21px; 
+  /* в фигме line-height 21.13px, в разделе типография */
   text-align: center;
   text-underline-offset: 4px;
   text-transform: lowercase;
@@ -27,5 +28,5 @@
 
 .footer__social-list-item {
   width: 48px;
-  min-height: 48px;
+  max-height: 48px;
 }

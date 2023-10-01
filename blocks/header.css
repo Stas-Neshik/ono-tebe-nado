@@ -9,8 +9,6 @@
 .header__menu {
   max-width: 390px;
   margin-top: 8px;
-  /* display: flex;
-flex-direction: row; */
 }
 
 .header__links-list {
@@ -31,6 +29,7 @@ flex-direction: row; */
 }
 
 .address {
+  font-family: "Raleway", Arial, sans-serif;
   font-style: normal;
   line-height: 24.3px;
   justify-self: right;
@@ -44,12 +43,7 @@ flex-direction: row; */
   list-style-type: none;
 }
 
-.header__address {
-  /* padding-bottom: 3px; */
-}
-
 .header__logo {
   width: 143px;
-
   margin-top: 5px;
 }
