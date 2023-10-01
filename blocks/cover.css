@@ -1,61 +1,72 @@
-.cover{
+.cover {
   display: flex;
   flex-direction: column;
   background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.overlay{
-  opacity: 0.6;
+.overlay {
+  opacity: rgba(0, 0, 0, 1);
 }
 
-.cover__title{
+.cover__title {
   display: flex;
   flex-direction: column;
   width: 100%;
   padding: 165px 50px 128px;
-  color: #FFF;
-  font-family: Raleway;
+  color: #fff;
+  font-family: "Raleway", sans-serif, Arial;
   font-size: 100px;
   line-height: 115px;
   letter-spacing: 30px;
   text-transform: uppercase;
+  row-gap: 12px;
 }
 
-.aligned-text_center{
+
+.aligned-text_center {
   align-self: center;
-    padding-right: 62px;
-    padding-top: 16px;
+  line-height: 110px;
 }
 
-.aligned-text_right{
+.aligned-text_right {
   align-self: flex-end;
-  letter-spacing: 30px;
+  line-height: 110px;
 }
-.aligned-letter{
-  padding-right: 30px;
+.aligned-letter-small {
+letter-spacing: 0.3em;
+}
+.aligned-letter-big {
+  letter-spacing: 0.6em; 
+}
+.aligned-letter-inital{
+  letter-spacing: initial;
 }
 
-.cover__description{
+.cover__description {
   display: flex;
   /* justify-content: end; */
   align-items: center;
-  padding-left: 422px;
-  padding-right: 50px;
-  padding-bottom: 55px;
+  margin-left: 422px;
+  margin-right: 50px;
+  margin-bottom: 50px;
 }
 
-
-.cover__description-text{
+.cover__description-text {
   padding-right: 82px;
-  color: #FFF;
+  color: #fff;
   font-size: 22px;
   text-transform: uppercase;
   word-spacing: 17px;
+  line-height: 28px;
+  font-weight: 400px;
 }
 
-.bet-button{
-  border: 1px solid #FFF;
+.bet-button {
+  border: 1px solid #fff;
   padding: 12px 32px;
-  color: #FFF;
+  color: #fff;
   font-size: 22px;
   font-style: normal;
   text-transform: uppercase;
