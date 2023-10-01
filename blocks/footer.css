@@ -1,32 +1,32 @@
-.footer{
+.footer {
   margin: 180px 50px 90px;
   display: flex;
   justify-content: space-between;
 }
 
-.footer__menu-list{
+.footer__menu-list {
   list-style-type: none;
   line-height: 20px;
   text-align: center;
   text-underline-offset: 4px;
 }
 
-.footer__menu-link_active{
+.footer__menu-link_active {
   text-decoration: none;
 }
 
-.footer__social-list{
+.footer__social-list {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   column-gap: 50px;
 }
 
-.footer__social-list-item{
+.footer__social-list-item {
   width: 48px;
-  height: 48px;
+  min-height: 48px;
 }
 
-.footer__social-list-item:last-child{
+.footer__social-list-item:last-child {
   margin-right: 30px;
 }

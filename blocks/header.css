@@ -1,50 +1,55 @@
-.header{
+.header {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1.5fr 1fr 1fr;
   align-items: center;
-  gap: 83px;
+  gap: 45px;
   margin: 92px 50px;
-  /* почему может не работать свойство justify-content? */
 }
 
-.header__menu{
-width: 390px;
-padding-top: 10px;
-/* display: flex;
+.header__menu {
+  max-width: 390px;
+  /* display: flex;
 flex-direction: row; */
 }
 
-.header__links-list{
+.header__links-list {
   display: flex;
   flex-direction: row;
   gap: 32px;
   list-style-type: circle;
 }
-.header__links-list-item{
+.header__links-list-item {
   font-size: 18px;
   text-decoration: underline;
-  text-underline-offset: 4px;   /* отступ  линии*/
+  text-underline-offset: 4px; /* отступ  линии*/
+  letter-spacing: -1px;
 }
 
-.header__link_active{
+.header__link_active {
   text-decoration: none;
-  list-style-type: none;  
-}
-
-.address{
-  justify-self: center;
-  width: 240px;
-  padding-top: 10px;
-  font-size: 18px;
-  text-underline-offset: 4px;
   list-style-type: none;
 }
 
-.header__address{
-  padding-bottom: 3px;
+.address {
+  font-style: normal;
+  line-height: 24.3px;
+  justify-self: center;
+  max-width: 240px;
+  font-size: 18px;
+  text-underline-offset: 4px;
+  letter-spacing: -1px;
+  margin-left: 58px;
 }
 
-.header__logo{
-  width: 140px;
-  margin-left: 125px;
+.address__list {
+  list-style-type: none;
+}
+
+.header__address {
+  /* padding-bottom: 3px; */
+}
+
+.header__logo {
+  width: 120px;
+  /* margin-left: 125px; */
 }
