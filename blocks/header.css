@@ -2,12 +2,13 @@
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr;
   align-items: center;
-  gap: 45px;
+  gap: 165px;
   margin: 92px 50px;
 }
 
 .header__menu {
   max-width: 390px;
+  margin-top: 8px;
   /* display: flex;
 flex-direction: row; */
 }
@@ -22,7 +23,6 @@ flex-direction: row; */
   font-size: 18px;
   text-decoration: underline;
   text-underline-offset: 4px; /* отступ  линии*/
-  letter-spacing: -1px;
 }
 
 .header__link_active {
@@ -37,8 +37,7 @@ flex-direction: row; */
   max-width: 240px;
   font-size: 18px;
   text-underline-offset: 4px;
-  letter-spacing: -1px;
-  margin-left: 58px;
+  margin-left: 49px;
 }
 
 .address__list {
@@ -50,6 +49,7 @@ flex-direction: row; */
 }
 
 .header__logo {
-  width: 120px;
-  /* margin-left: 125px; */
+  width: 143px;
+
+  margin-top: 5px;
 }

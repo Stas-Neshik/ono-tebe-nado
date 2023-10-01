@@ -1,7 +1,6 @@
 .cover{
   display: flex;
   flex-direction: column;
-  height: fit-content;
   background-image: url(../images/cover.jpg);
 }
 .overlay{
