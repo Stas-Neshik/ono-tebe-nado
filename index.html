@@ -53,26 +53,35 @@
       </address>
     </header>
     <main>
-      <section class="cover overlay">
-        <h1 class="cover__title">
-          <span class="aligned-letter-big"><span class="aligned-letter-small">О</span>но</span>
-          <span class="aligned-text_center aligned-letter-big"><span class="aligned-letter-small">те</span>бе</span>
-          <span class="aligned-text_right  aligned-letter-big">н<span class="aligned-letter-small">ад</span> <span class="aligned-letter-inital">о</span></span>
-
-
-        </h1>
-        <div class="cover__description">
-          <p class="cover__description-text">
-            Аукцион вещей, в которые никто не верил
-          </p>
-          <button class="bet-button" type="button">Сделать ставку</button>
-        </div>
+      <section class="section_overlay">
+        <section class="cover">
+          <div class="overlay"></div>
+          <h1 class="cover__title">
+            <span class="aligned-letter-big"
+              ><span class="aligned-letter-small">О</span>но</span
+            >
+            <span class="aligned-text_center aligned-letter-big"
+              ><span class="aligned-letter-small">те</span>бе</span
+            >
+            <span class="aligned-text_right aligned-letter-big"
+              >н<span class="aligned-letter-small">ад</span>
+              <span class="aligned-letter-inital">о</span></span
+            >
+          </h1>
+          <div class="cover__description">
+            <p class="cover__description-text">
+              Аукцион вещей, в которые никто не верил
+            </p>
+            <button class="bet-button" type="button">Сделать ставку</button>
+          </div>
+        </section>
       </section>
       <section class="lots">
         <h2 class="lots__heading">Лоты</h2>
 
         <ul class="lots__card-list">
           <li class="lots__card-list-item card_type_film">
+            <div class="overlay"></div>
             <a class="card-link" href="#">
               <article class="card">
                 <h3 class="card__title">
@@ -87,6 +96,7 @@
             </a>
           </li>
           <li class="lots__card-list-item card_type_book">
+            <div class="overlay"></div>
             <a class="card-link" href="#">
               <article class="card">
                 <h3 class="card__title">
@@ -104,6 +114,7 @@
             </a>
           </li>
           <li class="lots__card-list-item card_type_picture">
+            <div class="overlay"></div>
             <a class="card-link" href="#">
               <article class="card">
                 <h3 class="card__title">
@@ -153,8 +164,8 @@
       </section>
     </main>
     <footer class="footer">
-      <address>
-        <ul class="address">
+      <address class="address">
+        <ul class="address__list">
           <li>
             <a class="header__address" href="tel:+99995555555"
               >+9 999 555 5555</a

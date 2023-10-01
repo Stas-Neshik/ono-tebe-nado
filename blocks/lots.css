@@ -12,12 +12,14 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  margin: 25px 0px 32px;
+  margin: 30px 0px 32px;
   list-style-type: none;
+  flex-wrap: wrap;
+  flex-grow: 1;
 }
 
 .lots__card-list-item {
-  /* flex-grow: 1; не пригодился*/
+position: relative;
 }
 
 .card-link {
@@ -38,12 +40,14 @@
   line-height: 26.4px;
   text-decoration-line: underline;
   text-transform: uppercase;
+  z-index: 4;
 }
 
 .card__text {
   color: #fff;
   font-size: 20px;
   line-height: 24px;
+  z-index: 4;
 }
 
 .card_type_film {

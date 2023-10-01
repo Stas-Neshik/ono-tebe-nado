@@ -1,14 +1,17 @@
 .footer {
-  margin: 180px 50px 90px;
+  margin: 184px 50px 90px;
   display: flex;
   justify-content: space-between;
 }
 
 .footer__menu-list {
+  font-family: "Raleway", sans-serif, Arial;
+  font-size: 18px;
   list-style-type: none;
-  line-height: 20px;
+  line-height: 21.13px;
   text-align: center;
   text-underline-offset: 4px;
+  text-transform: lowercase;
 }
 
 .footer__menu-link_active {
@@ -25,8 +28,4 @@
 .footer__social-list-item {
   width: 48px;
   min-height: 48px;
-}
-
-.footer__social-list-item:last-child {
-  margin-right: 30px;
 }

@@ -33,11 +33,11 @@ flex-direction: row; */
 .address {
   font-style: normal;
   line-height: 24.3px;
-  justify-self: center;
+  justify-self: right;
   max-width: 240px;
   font-size: 18px;
   text-underline-offset: 4px;
-  margin-left: 49px;
+  align-self: center;
 }
 
 .address__list {

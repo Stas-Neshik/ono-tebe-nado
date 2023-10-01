@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
-  column-gap: 25px;
+  column-gap: 10px;
 }
 
 .about__logo {
@@ -19,6 +19,7 @@
   align-items: center;
   justify-self: center;
   margin-top: 10px;
+  margin-right: 18px;
 }
 
 .about__logo-image {

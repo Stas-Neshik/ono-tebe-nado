@@ -1,3 +1,16 @@
+
+.overlay{
+background-color: rgb(0 0 0 / 0.6); ;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+
+
+
 .cover {
   display: flex;
   flex-direction: column;
@@ -5,9 +18,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.overlay {
-  opacity: rgba(0, 0, 0, 1);
+  position: relative;
+  z-index: 1;
 }
 
 .cover__title {
@@ -22,6 +34,7 @@
   letter-spacing: 30px;
   text-transform: uppercase;
   row-gap: 12px;
+  z-index: 3;
 }
 
 
@@ -51,6 +64,7 @@ letter-spacing: 0.3em;
   margin-left: 422px;
   margin-right: 50px;
   margin-bottom: 50px;
+  z-index: 3;
 }
 
 .cover__description-text {
