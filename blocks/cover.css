@@ -40,16 +40,22 @@
 }
 
 .aligned-text_right {
+  /* Сломал голову как можно сделать по другому, но получается только через флекс */
+  display: flex;
+  font-size: 0px;
   align-self: flex-end;
   line-height: 110px;
 }
 .aligned-letter-small {
+  font-size: 100px;
   letter-spacing: 0.3em;
 }
 .aligned-letter-big {
+  font-size: 100px;
   letter-spacing: 0.6em;
 }
 .aligned-letter-inital {
+  font-size: 100px;
   letter-spacing: initial;
 }
 
